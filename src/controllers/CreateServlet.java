@@ -19,7 +19,7 @@ import utils.DBUtil;
 @WebServlet(name = "create", urlPatterns = { "/create" })
 public class CreateServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+
     /**
      * @see HttpServlet#HttpServlet()
      */
