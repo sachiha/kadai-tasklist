@@ -9,12 +9,12 @@
                     <a href="${pageContext.request.contextPath}/show?id=${task.id}">
                         <c:out value="${task.id}" />
                     </a>
-                    ：<c:out value="${message.title}"></c:out> &gt; <c:out value="${task.content}" />
+                    ：<c:out value="${task.title}"></c:out> &gt; <c:out value="${task.content}" />
                 </li>
             </c:forEach>
         </ul>
 
-        <p><a href="${pageContext.request.contextPath}/new">新規taskの入力</a></p>
+        <p><a href="${pageContext.request.contextPath}/new">新規タスクの入力</a></p>
 
     </c:param>
 </c:import>

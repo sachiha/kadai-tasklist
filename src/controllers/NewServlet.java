@@ -35,6 +35,9 @@ public class NewServlet extends HttpServlet {
         em.getTransaction().begin();
         Task t = new Task();
 
+        String title = "taro";
+        t.setTitle(title);
+
         String content = "hello";
         t.setContent(content);
 
